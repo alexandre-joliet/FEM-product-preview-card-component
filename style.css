@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(30, 38%, 92%);
+    margin: 0;
+}
+
+.card-main {
+    width: 1000px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 52px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.card-main img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.card-info {
+    padding: 10px 30px 10px 30px;
+}
+
+.product-type,
+.product-description {
+    font-family: "Montserrat", Helvetica;
+    color: hsl(158, 36%, 37%);
+}
+
+.product-type {
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+
+.product-name {
+    font-family: "Fraunces", Helvetica;
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+}
+
+
+.product-description {
+    font-size: 14px;
+}
