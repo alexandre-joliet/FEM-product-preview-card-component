@@ -9,41 +9,40 @@
   <link href="style.css" rel="stylesheet">
   
   <title>Frontend Mentor | Product preview card component</title>
-
 </head>
 
 <body>
 
-<div class="card-main">
+<main>
+  <div class="card-main">
 
-  <picture>
-    
-    <source media="(min-width: 650px)" srcset="./images/image-product-desktop.jpg">
-    <img src='./images/image-product-mobile.jpg' alt='Essence Perfume'/>
+    <picture>
+      <source media="(min-width: 650px)" srcset="./images/image-product-desktop.jpg">
+      <img src='./images/image-product-mobile.jpg' alt='Essence Perfume'/>
+    </picture>
 
-  </picture>
+    <div class="card-info">
+        <h2 class="product-type">PERFUME</h2>
 
-  <div class="card-info">
-      <h2 class="product-type">PERFUME</h2>
+        <h1 class="product-name">Gabrielle Essence Eau De Parfum</h1>
 
-      <h1 class="product-name">Gabrielle Essence Eau De Parfum</h1>
+        <p class="product-description">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+        Perfumer-Creator for the House of CHANEL.</p>
 
-      <p class="product-description">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-      Perfumer-Creator for the House of CHANEL.</p>
+      <div class="prices">
+        <h1 class="discount-price">$149.99</h1>
+        <p class="retail-price"><strike>$169.99</strike></p>
+      </div>
 
-    <div class="prices">
-      <h1 class="discount-price">$149.99</h1>
-      <p class="retail-price"><strike>$169.99</strike></p>
+      <button class="cart">
+        <img class="cart-logo" src="/FEM-product-preview-card-component/images/icon-cart.svg">
+        <p>Add to Cart</p>
+      </button>
+
     </div>
 
-    <button class="cart">
-      <img class="cart-logo" src="/FEM-product-preview-card-component/images/icon-cart.svg">
-      <p>Add to Cart</p>
-    </button>
-
-  </div>
-
-</div>  
+  </div>  
+</main>
 
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
