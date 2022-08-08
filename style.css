@@ -6,25 +6,26 @@ body {
     align-items: center;
     justify-content: center;
     background-color: hsl(30, 38%, 92%);
-    margin: 0;
+    margin: 0px 20px 0px 20px;
 }
 
 .card-main {
     width: 650px;
     height: 500px;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 2px 2px 52px 6px rgba(0, 0, 0, 0.1);
     display: flex;
 }
 
-.picture {
-    width: 100%;
-    height: auto;
-    border-radius: 20px 0px 0px 20px;
+img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
 }
 
 .card-info {
+    width: 225px;
     padding: 40px 40px 40px 40px;
     display: flex;
     flex-direction: column;
@@ -96,4 +97,20 @@ body {
 .cart-logo {
     height: 20px;
     width: 20px;
+}
+
+@media (max-width: 650px) {
+    .card-main {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    img {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .card-info {
+        width: auto;
+    }
 }
