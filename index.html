@@ -16,7 +16,12 @@
 
 <div class="card-main">
 
-    <img class="picture" src="./images/image-product-desktop.jpg">
+  <picture>
+    
+    <source media="(min-width: 650px)" srcset="./images/image-product-desktop.jpg">
+    <img src='./images/image-product-mobile.jpg' alt='Essence Perfume'/>
+
+  </picture>
 
   <div class="card-info">
       <h2 class="product-type">PERFUME</h2>
@@ -31,10 +36,10 @@
       <p class="retail-price"><strike>$169.99</strike></p>
     </div>
 
-    <div class="cart">
+    <button class="cart">
       <img class="cart-logo" src="/FEM-product-preview-card-component/images/icon-cart.svg">
       <p>Add to Cart</p>
-    </div>
+    </button>
 
   </div>
 
