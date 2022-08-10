@@ -35,7 +35,8 @@
 2. First version of sections and classes
 3. Starting of building the style in CSS, from top to bottom. No major issue here, except for the image size
 4. First version was only for desktop, so I looked on how to make it responsive for mobile
-5. Research, testing, failing and finally working with different pictures depending on the size of the 
+5. Research, testing, failing and finally working with different pictures depending on the size of the screen
+6. Got back on the code after a few days to refine it and add some features
 
 
 
