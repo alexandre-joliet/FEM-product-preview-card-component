@@ -51,6 +51,11 @@
 
 Usage of <picture> and its utility to set up multiple content depending of the size of the viewer.
 
+Learned a bit more about the size units we can use in CSS.
+
+Transition and hovering as well.
+
+
 ### Continued development
 
 I have not yet started to learn the specificities of mobile first development (will come later in my path) but discovering it bit by bit!
