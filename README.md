@@ -49,7 +49,7 @@
 
 ### What I learned
 
-Usage of <picture> and its utility to set up multiple content depending of the size of the viewer.
+Usage of "picture" and its utility to set up multiple content depending of the size of the viewer.
 
 Learned a bit more about the size units we can use in CSS.
 
