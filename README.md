@@ -23,8 +23,8 @@
 
 ### Links
 
-- Solution URL: https://github.com/JojoRider/FEM-product-preview-card-component
-- Live Site URL: https://jojorider.github.io/FEM-product-preview-card-component/
+- Solution URL: https://github.com/alexandre-joliet/FEM-product-preview-card-component
+- Live Site URL: https://alexandre-joliet.github.io/FEM-product-preview-card-component/
 
 
 ---
